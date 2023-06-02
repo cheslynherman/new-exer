@@ -1,0 +1,85 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fantasy;
+    background-image: url(https://i.postimg.cc/htRMNGRS/pexels-kaboompics-com-5836.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+}
+
+h1 {
+    text-align: center;
+}
+.container {
+    width: 40%;
+    height: 75vh;
+    padding: 15px;
+    display: block;
+    margin: auto;
+}
+
+.array1 {
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 10px;
+    height: 50%;
+    background-image: url(https://i.postimg.cc/FHjxNxF8/pexels-dids-3530068.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    border: 0px;
+    border-radius: 30px;
+    color: white;
+}
+
+.array2 {
+    /* border: 2px solid black; */
+    padding: 10px;
+    margin: 10px;
+    height: 50%;
+    background-image: url(https://i.postimg.cc/nLfngB03/pexels-mark-mccammon-1934846.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    object-fit: cover;
+    border: 0px;
+    border-radius: 30px;
+    color: black;
+    text-align: center;
+}
+
+.btn1 {
+    height: 30px;
+    width: 70px;
+    margin: 10px;
+    font-family: fantasy;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+
+button:hover {
+    background: white;
+    color: black;
+}
+
+input {
+    height: 30px;
+    width: 30%;
+    margin: 10px;
+    font-family: fantasy;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#newArray {
+    color: white;
+    text-align: center;
+}

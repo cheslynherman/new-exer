@@ -1,16 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
     <title>Document</title>
-</head>
-<body>
-    <input type="text" id="array"><button onclick="addToArray()">Push</button>
-    <p id="newArray"></p><br>
-    <input type="text" id="firstName"><input type="text" id="lastName"><button onclick="addToObject()">Push</button>
-    <p id="result"></p>
+  </head>
+  <body>
+    <h1>Array Exercise</h1>
+    <div class="container">
+      <div class="array1">
+        <label for="">Array</label><input type="text" id="array" /><button class="btn1" onclick="addToArray()">
+          Push</button
+        ><br />
+        <p id="newArray"></p>
+      </div>
+      <div class="array2">
+        <label for="">First Name</label><input type="text" id="firstName" /> <label for="">Last Name</label><input
+          type="text"
+          id="lastName"
+        />
+        <label for="">Age</label><input type="number" id="ages">
+        <button class="btn2" onclick="addToObject()">Push</button>
+        <p class="table"></p>
+      </div>
+    </div>
     <script src="index.js"></script>
-</body>
+  </body>
 </html>
